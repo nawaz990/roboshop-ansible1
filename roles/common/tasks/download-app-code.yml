@@ -13,12 +13,12 @@
     path: "{{ APP_LOC }}"
     state: absent
 
-- name: Create App Directory
-  ansible.builtin.file:
-    path: "{{ APP_LOC }}"
-    state: directory
+#- name: Create App Directory
+#  ansible.builtin.file:
+#    path: "{{ APP_LOC }}"
+ #   state: directory
 
-- name: Download App Content & Extract It
+- name: Download App Content & Extract it
   ansible.builtin.unarchive:
     src: https://github.com/roboshop-devops-project/{{ COMPONENT }}/archive/main.zip
     dest: "{{ APP_USER }}"
