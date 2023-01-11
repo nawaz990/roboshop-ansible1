@@ -3,10 +3,10 @@
   ansible.builtin.user:
     name: "{{ APP_USER }}"
 
-- name: Download App Content
-  ansible.builtin.get_url:
-    url: https://github.com/roboshop-devops-project/{{ COMPONENT }}/archive/main.zip
-    dest: /tmp/{{ COMPONENT }}.zip
+#- name: Download App Content
+ # ansible.builtin.get_url:
+  #  url: https://github.com/roboshop-devops-project/{{ COMPONENT }}/archive/main.zip
+   # dest: /tmp/{{ COMPONENT }}.zip
 
 - name: Remove Previous Version of App
   ansible.builtin.file:
