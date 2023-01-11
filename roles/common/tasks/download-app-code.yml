@@ -21,5 +21,5 @@
 - name: Download App Content & Extract it
   ansible.builtin.unarchive:
     src: https://github.com/roboshop-devops-project/{{ COMPONENT }}/archive/main.zip
-    dest: "{{ APP_USER }}"
+    dest: "{{ APP_LOC }}"
     remote_src: yes
