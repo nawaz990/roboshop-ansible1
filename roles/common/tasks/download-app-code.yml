@@ -23,3 +23,4 @@
   ansible.builtin.copy:
     src: /tmp/{{COMPONENT}}-main/
     dest: "{{ APP_LOC }}"
+    remote_src: yes
