@@ -1,0 +1,8 @@
+[Unit]
+Description=Catalogue Service
+
+[Service]
+ExecStart=//usr/bin/node /home/roboshop/catalogue/service.js
+
+[Install]
+WantedBy=multi-user.target
