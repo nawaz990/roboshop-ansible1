@@ -11,4 +11,7 @@
     name: common
     tasks_from: download-app-code
 
+- name: Install NodeJS Dependencies
+  community.general.npm:
+    path: "{{ APP_LOC }}"
 
