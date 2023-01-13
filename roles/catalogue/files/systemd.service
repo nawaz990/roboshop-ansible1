@@ -2,7 +2,7 @@
 Description=Catalogue Service
 
 [Service]
-ExecStart=//usr/bin/node /home/roboshop/catalogue/service.js
+ExecStart=//usr/bin/node /home/roboshop/catalogue/server.js
 
 [Install]
 WantedBy=multi-user.target
