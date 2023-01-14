@@ -1,5 +1,5 @@
 - name: Create All RoboShop Parameters
-  host: localhost
+  hosts: localhost
   tasks:
     - name: Create Value
       community.aws.aws_ssm_paramater_store:
