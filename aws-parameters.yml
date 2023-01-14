@@ -8,6 +8,7 @@
         region: "us-east-1"
       loop:
         - {name: "param.dev.catalogue.MONGO", value: "true"}
+        - {name: "param.dev.catalogue.MONGO_ENDPOINT", value: "dev-mongodb.devopsn69.online"}
         - {name: "param.dev.user.MONGO", value: "true"}
         - {name: "param.dev.frontend.CATALOGUE_URL", value: "http://dev-catalogue.devopsn69.online:8080/"}
         - {name: "param.dev.frontend.USER_URL", value: "http://dev-user.devopsn69.online:8080/"}

@@ -20,17 +20,5 @@
     state: restarted
     enabled: yes
 
-- name: Download App Content & Extract it
-  ansible.builtin.unarchive:
-    src: "https://github.com/roboshop-devops-project/{{COMPONENT}}/archive/main.zip"
-    dest: "/tmp"
-    remote_src: yes
 
-- name: Load Schema
-  community.mongodb.mongodb_shell:
-    file: "/tmp/mongodb-main/{{item}}.js"
-    idempotent: yes
-  loop:
-    - catalogue
-    - users
 
