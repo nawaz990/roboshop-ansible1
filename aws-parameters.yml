@@ -3,6 +3,6 @@
   tasks:
     - name: Create value
       community.aws.aws_ssm_parameter_store:
-        name: "param.dev.catlogue.MONGO"
+        name: "param.dev.catalogue.MONGO"
         value: "false"
         region: "us-east-1"
