@@ -1,7 +1,7 @@
 - name: Create All RoboShop Parameters
   hosts: localhost
   tasks:
-    - name: Create value
+    - name: Create Value
       community.aws.aws_ssm_parameter_store:
         name: "param.dev.catalogue.MONGO"
         value: "xyz"
