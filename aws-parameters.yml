@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
     - name: Create value
-      community.aws.ssm_parameters:
+      community.aws.aws_ssm_parameter_store:
         name: "param.dev.catlogue.MONGO"
         value: "false"
         region: "us-east-1"
