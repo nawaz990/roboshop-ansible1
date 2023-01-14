@@ -9,7 +9,7 @@
     tasks_from: download-app-code
 
 - name: Copy RoboShop Configuration File
-  ansible.builtin.copy:
+  ansible.builtin.template:
     src: roboshop.conf
     dest: /etc/nginx/default.d/roboshop.conf
 
