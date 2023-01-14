@@ -6,3 +6,6 @@
         name: "param.dev.catalogue.MONGO"
         value: "xyz"
         region: "us-east-1"
+      loops:
+        - {name: "param.dev.catalogue.MONGO", value: "true"}
+        - {name: "param.dev.user.MONGO", value: "true"}
