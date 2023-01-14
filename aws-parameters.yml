@@ -2,6 +2,6 @@
   hosts: localhost
   tasks:
     - name: Create Value
-      community.aws.ssm_paramater:
+      community.aws.aws_ssm_paramater_store:
         name: "param.dev.catalogue.MONGO"
         value: "false"
