@@ -6,7 +6,7 @@ User=roboshop
 Environment=REDIS_HOST="{{ lookup('aws_ssm', 'param.{{ENV}}.cart.REDIS_HOST', region='us-east-1' ) }}"
 Environment=CATALOGUE_HOST="{{ lookup('aws_ssm', 'param.{{ENV}}.cart.CATALOGUE_HOST', region='us-east-1' ) }}"
 Environment=CATALOGUE_PORT="{{ lookup('aws_ssm', 'param.{{ENV}}.cart.CATALOGUE_PORT', region='us-east-1' ) }}"
-ExecStart=//usr/bin/node /home/roboshop/cart/server.js
+ExecStart=//usr/bin/node /home/roboshop/user/server.js
 
 [Install]
 WantedBy=multi-user.target
