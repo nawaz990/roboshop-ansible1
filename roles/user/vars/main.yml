@@ -1,0 +1,5 @@
+COMPONENT: user
+APP_USER: roboshop
+APP_LOC: /home/roboshop/user
+DBTYPE: mongo
+LOAD_SCHEMA: yes

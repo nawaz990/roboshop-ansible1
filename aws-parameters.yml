@@ -16,3 +16,7 @@
         - {name: "param.dev.frontend.CART_URL", value: "http://dev-cart.devopsn69.online:8080/"}
         - {name: "param.dev.frontend.SHIPPING_URL", value: "http://dev-shipping.devopsn69.online:8080/"}
         - {name: "param.dev.frontend.PAYMENT_URL", value: "http://dev-payment.devopsn69.online:8080/"}
+        - {name: "param.dev.user.MONGO", value: "true"}
+        - {name: "param.dev.user.MONGO_ENDPOINT", value: "dev-mongodb.devopsn69.online"}
+        - {name: "param.dev.user.MONGO_URL", value: "mongodb://dev-mongodb.devopsn69.online:27017/users"}
+        - {name: "param.dev.user.REDIS_HOST", value: "dev-redis.devopsn69.online"}
